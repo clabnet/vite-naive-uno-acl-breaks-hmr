@@ -14,6 +14,7 @@ const app = createApp(App)
 app.use(createPinia())
 app.use(router)
 
-app.use(provaAcl)
+// uncommenting this line will breaks Hot Module Reload !
+ // app.use(provaAcl)
 
 app.mount('#app')
