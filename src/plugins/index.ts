@@ -1,0 +1,1 @@
+// export { provaAcl } from './provaAcl'
